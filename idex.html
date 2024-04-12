@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gamee</title>
+    <style>
+        * {
+          background-image: url("./brandi-redd-aJTiW00qqtI-unsplash.jpg");
+        }
+      </style>
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav id="nav" class="navbar navbar-light   mb-3">
+        <div class="container">
+            <a href="" class="navbar-brand fw-light">Gamee</a>
+        </div>
+    </nav>
+   <div class="container  d-flex flex-column mb-3 justify-content-around p-5 align-items-center">
+    <div>
+        <h1 id="title" class="fw-light text-center text-break"> Welcome to guessing game! </h1>
+    <p class="text-break">Get ready to put your thinking cap on and test your guessing skills. Let the fun and challenge begin!</p>
+    </div>
+    <div>
+        <form id="form" action="">
+            <label for="">
+                <input id="numIn" type="number" class="form-control form-control-sm" placeholder="guess the number">
+            </label>
+            <button class="btn btn-outline-primary" type="submit" >Guess</button>
+            
+        </form>
+        <div id="animatedDiv">
+            <p id="winAnimationP"></p>
+        </div>
+    </div>
+   </div>
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
